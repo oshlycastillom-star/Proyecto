@@ -1,6 +1,5 @@
 // 1. Importa Express
 const express = require('express');
-const chilkat = require('@chilkat/ck-node23-win64');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -67,7 +66,9 @@ app.delete('/users/:id', (req, res) => {
   }
 });
 
+
 // 3. Inicia el servidor
 app.listen(PORT, () => {
   console.log(`Servidor API REST escuchando en http://localhost:${PORT}`);
+
 });
