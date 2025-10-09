@@ -2,7 +2,7 @@
 const express = require('express');
 const chilkat = require('@chilkat/ck-node23-win64');
 const app = express();
-const PORT = 443 ;
+const PORT = process.env.PORT || 3000;
 
 // Datos de ejemplo (simulando una base de datos)
 let users = [
