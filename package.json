@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-  "@chilkat/ck-node23-win64": "^11.1.0",
+  "@chilkat/ck-node23-win64": "^11.6.2",
   "express": "4.18.2"
   }
 }
